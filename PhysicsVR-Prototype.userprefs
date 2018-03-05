@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/Compiled-Standard.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneSelect.cs">
     <Files>
-      <File FileName="Temp/Compiled-Standard.shader" Line="39" Column="24" />
+      <File FileName="Assets\Scripts\SceneSelect.cs" Line="22" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

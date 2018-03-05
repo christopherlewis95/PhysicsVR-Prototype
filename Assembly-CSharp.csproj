@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\boxScript.cs" />
      <Compile Include="Assets\Scripts\boxVelocity.cs" />
      <Compile Include="Assets\Scripts\HeightScript.cs" />
+     <Compile Include="Assets\Scripts\SceneSelect.cs" />
      <Compile Include="Assets\Scripts\UIBallScript.cs" />
      <Compile Include="Assets\Scripts\UIBoxScript.cs" />
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
