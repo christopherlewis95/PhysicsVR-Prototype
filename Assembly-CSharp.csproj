@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{44BFE1C6-518C-591E-603F-E3C292C78416}</ProjectGuid>
+    <ProjectGuid>{D05B3ABF-D208-858C-BB3D-6E21E2880B8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -511,7 +511,7 @@
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Accumulate.shader" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/VRUser/Desktop/PhysicsVR-Prototype-development/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/VRUser/Documents/GitHub/PhysicsVR-Prototype/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
