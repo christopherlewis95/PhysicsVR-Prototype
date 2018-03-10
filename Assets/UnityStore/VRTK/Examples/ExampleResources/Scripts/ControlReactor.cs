@@ -22,7 +22,7 @@
 
         private void HandleChange(object sender, Control3DEventArgs e)
         {
-            go.text = e.value.ToString() + "(" + e.normalizedValue.ToString() + "%)";
+			go.text = e.value.ToString() ;
         }
     }
 }
