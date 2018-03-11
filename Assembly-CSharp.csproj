@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\CannonScript.cs" />
      <Compile Include="Assets\freeCamScript.cs" />
+     <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
      <Compile Include="Assets\placementScript.cs" />
      <Compile Include="Assets\Scripts\ballScript.cs" />
@@ -60,10 +61,12 @@
      <Compile Include="Assets\Scripts\boxScript.cs" />
      <Compile Include="Assets\Scripts\boxVelocity.cs" />
      <Compile Include="Assets\Scripts\HeightScript.cs" />
+     <Compile Include="Assets\Scripts\LeverScript.cs" />
      <Compile Include="Assets\Scripts\SceneSelect.cs" />
      <Compile Include="Assets\Scripts\UIBallScript.cs" />
      <Compile Include="Assets\Scripts\UIBoxScript.cs" />
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
+     <Compile Include="Assets\SLeverScript.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />
@@ -488,6 +491,7 @@
      <Compile Include="Assets\UnityStore\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
      <Compile Include="Assets\UnityStore\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
      <Compile Include="Assets\UpdateEyeAnchors.cs" />
+     <Compile Include="Assets\VLeverScript.cs" />
      <Compile Include="Assets\WandController.cs" />
      <None Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\License.txt" />
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_Fade.shader" />
