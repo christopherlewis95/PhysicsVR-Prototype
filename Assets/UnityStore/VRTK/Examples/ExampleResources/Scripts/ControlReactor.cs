@@ -6,8 +6,8 @@
     public class ControlReactor : MonoBehaviour
     {
         public TextMesh go;
-
         private VRTK_Control_UnityEvents controlEvents;
+		 float angle;
 
         private void Start()
         {
@@ -23,6 +23,15 @@
         private void HandleChange(object sender, Control3DEventArgs e)
         {
 			go.text = e.value.ToString() ;
+			angle = e.value;
         }
+
+		public float getAngle(){
+
+
+			return this.angle;
+
+		}
+
     }
 }
