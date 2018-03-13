@@ -16,6 +16,9 @@ public class CannonScript : MonoBehaviour {
 	float previousAngleX = 0;
 	float currentAngleY = 0;
 	float previousAngleY = 0;
+	float xInitial = 0;
+	float yInitial = 0;
+	float sInitial = 0;
 	float strength;
 	float pstrength;
 	// Use this for initialization
@@ -23,18 +26,18 @@ public class CannonScript : MonoBehaviour {
 		HLever= GameObject.FindGameObjectWithTag("HLever");
 		hLeverData = HLever.GetComponent<HLeverScript> ();
 		 VLever = GameObject.FindGameObjectWithTag("VLever");
-		vLeverData = HLever.GetComponent<VLeverScript> ();
+		vLeverData = VLever.GetComponent<VLeverScript> ();
 		SLever = GameObject.FindGameObjectWithTag("SLever");
-		sLeverData = HLever.GetComponent<SLeverScript> ();
+		sLeverData = SLever.GetComponent<SLeverScript> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		currentAngleY = hLeverData.getAngle ();
-		currentAngleX = vLeverData.getAngle ();
+		currentAngleY = hLeverData.getAngle (); // Swivel Left and Right
+		currentAngleX = vLeverData.getAngle (); // Up and Down
 		strength = sLeverData.getAngle ();
 
-		LateUpdate ();
+		//LateUpdate ();
 	}
 
 	void LateUpdate(){
@@ -42,12 +45,16 @@ public class CannonScript : MonoBehaviour {
 		if (currentAngleX != previousAngleX) {
 			print (currentAngleX);
 			previousAngleX = currentAngleX;
-			this.transform.Rotate (currentAngleX, 0, 0);
+			currentAngleX = currentAngleX + xInitial;
+			this.transform.eulerAngles = new Vector3(currentAngleX, -currentAngleY, 0);
+			//this.transform.Rotate (currentAngleX, 0, 0);
 		}
-		if (currentAngleY != previousAngleY) {
+		else if (currentAngleY != previousAngleY) {
 			previousAngleY = currentAngleY;
+			currentAngleY = currentAngleY + yInitial;
 			print (currentAngleY);
-			this.transform.Rotate (0 ,currentAngleY, 0);
+			this.transform.eulerAngles = new Vector3(currentAngleX, -currentAngleY, 0);
+			//this.transform.Rotate (0 ,currentAngleY, 0);
 		}
 		/*
 		if ( strength != pstrength) {
