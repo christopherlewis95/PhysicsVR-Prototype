@@ -5,10 +5,13 @@ using VRTK.Examples;
 
 
 public class CannonScript : MonoBehaviour {
-	private GameObject HLever = GameObject.FindGameObjectWithTag("HLever");
-	private GameObject VLever = GameObject.FindGameObjectWithTag("VLever");
-	private GameObject PLever = GameObject.FindGameObjectWithTag("SLever");
 
+	private GameObject HLever;
+	private GameObject VLever;
+	private GameObject SLever;
+	HLeverScript hLeverData;
+	VLeverScript vLeverData;
+	SLeverScript sLeverData;
 	float currentAngleX = 0;
 	float previousAngleX = 0;
 	float currentAngleY = 0;
@@ -17,17 +20,19 @@ public class CannonScript : MonoBehaviour {
 	float pstrength;
 	// Use this for initialization
 	void Start () {
-
+		HLever= GameObject.FindGameObjectWithTag("HLever");
+		hLeverData = HLever.GetComponent<HLeverScript> ();
+		 VLever = GameObject.FindGameObjectWithTag("VLever");
+		vLeverData = HLever.GetComponent<VLeverScript> ();
+		SLever = GameObject.FindGameObjectWithTag("SLever");
+		sLeverData = HLever.GetComponent<SLeverScript> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		currentAngleY = HLever.GetComponent<HLeverScript> ().getAngle ();
-		currentAngleX = VLever.GetComponent<VLeverScript> ().getAngle ();
-		strength = PLever.GetComponent<SLeverScript> ().getAngle ();
-		print (currentAngleX);
-		print (currentAngleY);
-		print (strength);
+		currentAngleY = hLeverData.getAngle ();
+		currentAngleX = vLeverData.getAngle ();
+		strength = sLeverData.getAngle ();
 
 		LateUpdate ();
 	}
@@ -35,16 +40,20 @@ public class CannonScript : MonoBehaviour {
 	void LateUpdate(){
 		
 		if (currentAngleX != previousAngleX) {
+			print (currentAngleX);
 			previousAngleX = currentAngleX;
 			this.transform.Rotate (currentAngleX, 0, 0);
 		}
 		if (currentAngleY != previousAngleY) {
 			previousAngleY = currentAngleY;
+			print (currentAngleY);
 			this.transform.Rotate (0 ,currentAngleY, 0);
 		}
+		/*
 		if ( strength != pstrength) {
 			pstrength = strength;
 			this.transform.Rotate (0 ,0, strength);
 		}
+		*/
 	}
 }
