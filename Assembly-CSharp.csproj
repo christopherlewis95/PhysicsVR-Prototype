@@ -61,12 +61,14 @@
      <Compile Include="Assets\Scripts\boxScript.cs" />
      <Compile Include="Assets\Scripts\boxVelocity.cs" />
      <Compile Include="Assets\Scripts\HeightScript.cs" />
+     <Compile Include="Assets\Scripts\InputScript.cs" />
      <Compile Include="Assets\Scripts\LeverScript.cs" />
      <Compile Include="Assets\Scripts\SceneSelect.cs" />
      <Compile Include="Assets\Scripts\UIBallScript.cs" />
      <Compile Include="Assets\Scripts\UIBoxScript.cs" />
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
      <Compile Include="Assets\SLeverScript.cs" />
+     <Compile Include="Assets\UI_MenuScript.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />

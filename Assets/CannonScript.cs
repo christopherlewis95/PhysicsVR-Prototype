@@ -8,10 +8,12 @@ public class CannonScript : MonoBehaviour {
 
 	private GameObject HLever;
 	private GameObject VLever;
-	private GameObject SLever;
+	private GameObject SKnob;
 	HLeverScript hLeverData;
 	VLeverScript vLeverData;
-	SLeverScript sLeverData;
+	SLeverScript sKnobData;
+	public Transform firepoint;
+	public GameObject cannonBall;
 	float currentAngleX = 0;
 	float previousAngleX = 0;
 	float currentAngleY = 0;
@@ -21,21 +23,22 @@ public class CannonScript : MonoBehaviour {
 	float sInitial = 0;
 	float strength;
 	float pstrength;
+	float maxStrength = 100;
 	// Use this for initialization
 	void Start () {
 		HLever= GameObject.FindGameObjectWithTag("HLever");
 		hLeverData = HLever.GetComponent<HLeverScript> ();
 		 VLever = GameObject.FindGameObjectWithTag("VLever");
 		vLeverData = VLever.GetComponent<VLeverScript> ();
-		SLever = GameObject.FindGameObjectWithTag("SLever");
-		sLeverData = SLever.GetComponent<SLeverScript> ();
+		SKnob = GameObject.FindGameObjectWithTag("SLever");
+		sKnobData = SKnob.GetComponent<SLeverScript> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		currentAngleY = hLeverData.getAngle (); // Swivel Left and Right
 		currentAngleX = vLeverData.getAngle (); // Up and Down
-		strength = sLeverData.getAngle ();
+		strength = sKnobData.getAngle ();
 
 		//LateUpdate ();
 	}
@@ -56,11 +59,20 @@ public class CannonScript : MonoBehaviour {
 			this.transform.eulerAngles = new Vector3(currentAngleX, -currentAngleY, 0);
 			//this.transform.Rotate (0 ,currentAngleY, 0);
 		}
-		/*
-		if ( strength != pstrength) {
+
+		else if ( strength != pstrength) {
 			pstrength = strength;
-			this.transform.Rotate (0 ,0, strength);
+			//strength = strength + sInitial;
+			//shooooooott ();
+
 		}
-		*/
+	
+	}
+
+	public void shooooooott(){
+
+		var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
+		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * (40*(strength/maxStrength));
+
 	}
 }

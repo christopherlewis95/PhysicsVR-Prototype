@@ -6,6 +6,17 @@
     public class UI_Keyboard : MonoBehaviour
     {
         private InputField input;
+		private GameObject field;
+		private InputScript inputData;
+		//public Button[] buttons;
+
+		void Start()
+		{
+			input = GetComponentInChildren<InputField>();
+			field= GameObject.FindGameObjectWithTag("Data");
+			inputData = field.GetComponent<InputScript> ();
+
+		}
 
         public void ClickKey(string character)
         {
@@ -22,13 +33,28 @@
 
         public void Enter()
         {
+			checkValues ();
+
             VRTK_Logger.Info("You've typed [" + input.text + "]");
             input.text = "";
         }
 
-        private void Start()
-        {
-            input = GetComponentInChildren<InputField>();
-        }
+
+
+		private void checkValues(){
+
+			if (input.text == "VINH LE") {
+				//mainInputField.text = "";
+				inputData.activeButton(0);
+			}
+
+			if (input.text == "CHRIS") {
+				//mainInputField.text = "";
+				inputData.activeButton(1);
+			}
+
+
+		}
+
     }
 }

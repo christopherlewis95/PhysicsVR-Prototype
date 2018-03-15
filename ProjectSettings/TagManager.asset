@@ -7,6 +7,7 @@ TagManager:
   - HLever
   - VLever
   - SLever
+  - Data
   layers:
   - Default
   - TransparentFX
