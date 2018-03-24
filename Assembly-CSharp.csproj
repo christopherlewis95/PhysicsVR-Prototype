@@ -517,6 +517,7 @@
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\UnityStore\Game Jam Template\GameJamTemplateReadMe.txt" />
+     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Accumulate.shader" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="Facebook.Unity.Settings">

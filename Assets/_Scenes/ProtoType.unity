@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.320648, g: 0.44621468, b: 0.52813137, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2764,10 +2764,6 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
---- !u!1 &208365847 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 159396, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
 --- !u!1 &215455994
 GameObject:
   m_ObjectHideFlags: 0
@@ -8601,6 +8597,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411526426}
+--- !u!1 &430392259 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 189822, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &435729581
 GameObject:
   m_ObjectHideFlags: 0
@@ -8913,10 +8913,10 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
---- !u!1 &443050710 stripped
+--- !u!1 &448462386 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 192944, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
+  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &462648848
 GameObject:
   m_ObjectHideFlags: 0
@@ -9705,13 +9705,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 521838971}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 30.91, y: 34.68, z: -29.31}
+  m_LocalRotation: {x: 0.6173368, y: -0.70889413, z: 0.22278516, w: 0.25832388}
+  m_LocalPosition: {x: 36.4, y: 72.8, z: 67.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 39.406002, y: -173.223, z: -79.672005}
 --- !u!1 &533677445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13233,10 +13233,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 901835442}
---- !u!1 &914070784 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 124034, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
 --- !u!1 &945561371
 GameObject:
   m_ObjectHideFlags: 0
@@ -16476,10 +16472,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1244771359 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 189822, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
 --- !u!1 &1249913719
 GameObject:
   m_ObjectHideFlags: 0
@@ -16741,10 +16733,6 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 410358, guid: f8f047695f472d84c9c1786697b77ea9, type: 2}
   m_PrefabInternal: {fileID: 1031977416}
---- !u!1 &1270724041 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 147176, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
 --- !u!1001 &1276355619
 Prefab:
   m_ObjectHideFlags: 0
@@ -18720,6 +18708,10 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!1 &1432055680 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 124034, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &1434751624
 GameObject:
   m_ObjectHideFlags: 0
@@ -24453,10 +24445,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1861067818}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1864134595 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 146900, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 841914099}
 --- !u!4 &1864134596 stripped
 Transform:
   m_PrefabParentObject: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
@@ -24564,7 +24552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1880915146
 AudioListener:
   m_ObjectHideFlags: 0
@@ -24628,13 +24616,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880915145}
-  m_LocalRotation: {x: 0.057944175, y: -0.65150344, z: 0.050016053, w: 0.7547743}
-  m_LocalPosition: {x: 38.2, y: 8.5, z: -26.8}
+  m_LocalRotation: {x: -0.025155352, y: 0.09591237, z: -0.009533931, w: 0.99502623}
+  m_LocalPosition: {x: 30.8, y: 7.25, z: -27.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 8.78, y: -81.6, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.765, y: 11.045, z: -1.365}
 --- !u!1 &1885123253
 GameObject:
   m_ObjectHideFlags: 0
@@ -25803,6 +25791,10 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!1 &1984009168 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 147176, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &2030242315
 GameObject:
   m_ObjectHideFlags: 0
@@ -26497,12 +26489,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 1864134595}
-  actualHeadset: {fileID: 1244771359}
-  actualLeftController: {fileID: 914070784}
-  actualRightController: {fileID: 208365847}
-  modelAliasLeftController: {fileID: 1270724041}
-  modelAliasRightController: {fileID: 443050710}
+  actualBoundaries: {fileID: 1195711073}
+  actualHeadset: {fileID: 430392259}
+  actualLeftController: {fileID: 1432055680}
+  actualRightController: {fileID: 1585193396}
+  modelAliasLeftController: {fileID: 1984009168}
+  modelAliasRightController: {fileID: 448462386}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
