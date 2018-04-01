@@ -8,6 +8,7 @@ TagManager:
   - VLever
   - SLever
   - Data
+  - Cannonball
   layers:
   - Default
   - TransparentFX
