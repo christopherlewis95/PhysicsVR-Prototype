@@ -8597,10 +8597,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411526426}
---- !u!1 &430392259 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 189822, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &435729581
 GameObject:
   m_ObjectHideFlags: 0
@@ -8913,10 +8909,6 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
---- !u!1 &448462386 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 192944, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &462648848
 GameObject:
   m_ObjectHideFlags: 0
@@ -12572,6 +12564,30 @@ Prefab:
     - {fileID: 11420968, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &841914100 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 192944, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
+--- !u!1 &841914101 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 147176, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
+--- !u!1 &841914102 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 159396, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
+--- !u!1 &841914103 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 124034, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
+--- !u!1 &841914104 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 189822, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
+--- !u!1 &841914105 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 146900, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  m_PrefabInternal: {fileID: 841914099}
 --- !u!1 &844825061
 GameObject:
   m_ObjectHideFlags: 0
@@ -18708,10 +18724,6 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
---- !u!1 &1432055680 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 124034, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &1434751624
 GameObject:
   m_ObjectHideFlags: 0
@@ -24552,7 +24564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1880915146
 AudioListener:
   m_ObjectHideFlags: 0
@@ -25791,10 +25803,6 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
---- !u!1 &1984009168 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 147176, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
-  m_PrefabInternal: {fileID: 251244153}
 --- !u!1 &2030242315
 GameObject:
   m_ObjectHideFlags: 0
@@ -26489,12 +26497,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 1195711073}
-  actualHeadset: {fileID: 430392259}
-  actualLeftController: {fileID: 1432055680}
-  actualRightController: {fileID: 1585193396}
-  modelAliasLeftController: {fileID: 1984009168}
-  modelAliasRightController: {fileID: 448462386}
+  actualBoundaries: {fileID: 841914105}
+  actualHeadset: {fileID: 841914104}
+  actualLeftController: {fileID: 841914103}
+  actualRightController: {fileID: 841914102}
+  modelAliasLeftController: {fileID: 841914101}
+  modelAliasRightController: {fileID: 841914100}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
