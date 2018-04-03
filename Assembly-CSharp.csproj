@@ -56,6 +56,7 @@
      <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
      <Compile Include="Assets\placementScript.cs" />
+     <Compile Include="Assets\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\ballScript.cs" />
      <Compile Include="Assets\Scripts\boxHeight.cs" />
      <Compile Include="Assets\Scripts\boxScript.cs" />
