@@ -13,13 +13,33 @@ public class SceneSelect : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+
 	}
 
 	public void TransitionKinematics (){
 
-		SceneManager.LoadScene ("Prototype");
+
+			//Use a coroutine to load the Scene in the background
+		StartCoroutine(LoadYourAsyncScene());
 
 
 	}
+
+
+
+	IEnumerator LoadYourAsyncScene()
+	{
+		// The Application loads the Scene in the background at the same time as the current Scene.
+		//This is particularly good for creating loading screens. You could also load the Scene by build //number.
+		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Prototype");
+
+		//Wait until the last operation fully loads to return anything
+		while (!asyncLoad.isDone)
+		{
+			yield return null;
+		}
+	}
+
+
 }
