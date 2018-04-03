@@ -7,6 +7,9 @@ public class Target_Script : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Cannonball") {
 			Destroy (target);
+			//TODO:
+			//explosion
+			//increment score
 		}
 	}
 }

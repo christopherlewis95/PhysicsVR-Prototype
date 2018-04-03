@@ -69,6 +69,8 @@
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
      <Compile Include="Assets\SLeverScript.cs" />
      <Compile Include="Assets\Target_Script.cs" />
+     <Compile Include="Assets\Test_Grab.cs" />
+     <Compile Include="Assets\test_particle.cs" />
      <Compile Include="Assets\UI_MenuScript.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
@@ -522,7 +524,7 @@
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Accumulate.shader" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/WZ/Documents/GitHub/PhysicsVR-Prototype/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/WZ/Desktop/PhysicsVR-Prototype/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
