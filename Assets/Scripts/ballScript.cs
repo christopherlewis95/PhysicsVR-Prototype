@@ -1,17 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ballScript : MonoBehaviour {
 	public Rigidbody rb;
+	public SphereCollider myCollider;
+	public GameObject scoreObject;
+	public ScoreScript score;
+
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
+		scoreObject = GameObject.FindGameObjectWithTag ("CannonScore");
+		score = scoreObject.GetComponent<ScoreScript> ();
 	}
 
 	// Update is called once per frame
 	void Update () {
+
 
 	}
 
@@ -32,4 +40,16 @@ public class ballScript : MonoBehaviour {
 
 		return myYPos;
 	}
+	/*
+	 void OnCollisionEnter (Collision col)
+	{
+		
+		if(col.gameObject.tag == "Target")
+		{
+			print ("FACK");
+			score.UpdateScore (10);
+		}
+	
+	}
+	*/
 }

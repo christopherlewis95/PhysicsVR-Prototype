@@ -9,6 +9,8 @@ TagManager:
   - SLever
   - Data
   - Cannonball
+  - CannonScore
+  - Target
   layers:
   - Default
   - TransparentFX
