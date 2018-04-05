@@ -511,6 +511,7 @@
      <None Include="Assets\UnityStore\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Normalize.shader" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4SuperShader.shader" />
+     <None Include="Assets\UnityStore\Basic Metal Texture Pack\readme.txt" />
      <None Include="Assets\UnityStore\Game Jam Template\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Models\whiteBoard\BLENDSWAP_LICENSE.txt" />
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
