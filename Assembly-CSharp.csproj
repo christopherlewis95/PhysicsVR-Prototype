@@ -242,6 +242,7 @@
      <Compile Include="Assets\UnityStore\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\UnityStore\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\UnityStore\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\UnityStore\VoxelWorld\VoxelWorld - Effects (Free)\Scripts\Mover.cs" />
      <Compile Include="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\Archery\Arrow.cs" />
      <Compile Include="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowNotch.cs" />
      <Compile Include="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowSpawner.cs" />

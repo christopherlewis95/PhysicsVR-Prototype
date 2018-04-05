@@ -9,9 +9,14 @@ public class CannonScript : MonoBehaviour {
 	private GameObject HLever;
 	private GameObject VLever;
 	private GameObject SKnob;
+	public GameObject explosion;
+
 	HLeverScript hLeverData;
 	VLeverScript vLeverData;
 	SLeverScript sKnobData;
+	ParticleSystem particleExplosion;
+	private bool played;
+
 	public Transform firepoint;
 	public GameObject cannonBall;
 	float currentAngleX = 0;
@@ -32,6 +37,9 @@ public class CannonScript : MonoBehaviour {
 		vLeverData = VLever.GetComponent<VLeverScript> ();
 		SKnob = GameObject.FindGameObjectWithTag("SLever");
 		sKnobData = SKnob.GetComponent<SLeverScript> ();
+
+		particleExplosion = explosion.GetComponent<ParticleSystem> ();
+
 	}
 	
 	// Update is called once per frame
@@ -70,9 +78,22 @@ public class CannonScript : MonoBehaviour {
 	}
 
 	public void shooooooott(){
-
+		//played = true;
 		var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
+		particleExplosion.Play ();
+	
+		StartCoroutine (delay(1));
+
+
 		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * (40*(strength/maxStrength));
 
+	}
+
+	IEnumerator delay(int time)
+	{
+		//print(Time.time);
+		yield return new WaitForSeconds(time);
+		particleExplosion.Stop ();
+		//print(Time.time);
 	}
 }
