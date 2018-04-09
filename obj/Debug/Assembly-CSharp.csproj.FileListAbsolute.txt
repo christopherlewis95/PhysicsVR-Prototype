@@ -202,3 +202,4 @@ C:\Users\WZ\Desktop\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.iOS.Extension
 C:\Users\WZ\Desktop\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\WZ\Desktop\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.dll
 C:\Users\WZ\Desktop\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.pdb
+C:\Users\VRUser\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
