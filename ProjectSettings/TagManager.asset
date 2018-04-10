@@ -11,6 +11,7 @@ TagManager:
   - Cannonball
   - CannonScore
   - Target
+  - Cannon
   layers:
   - Default
   - TransparentFX

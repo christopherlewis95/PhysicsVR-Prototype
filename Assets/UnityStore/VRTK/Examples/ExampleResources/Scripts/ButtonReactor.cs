@@ -6,7 +6,7 @@
     public class ButtonReactor : MonoBehaviour
     {
         public GameObject go;
-        public Transform dispenseLocation;
+       // public Transform dispenseLocation;
 
         private VRTK_Button_UnityEvents buttonEvents;
 
@@ -24,8 +24,8 @@
         {
             VRTK_Logger.Info("Pushed");
 
-            GameObject newGo = (GameObject)Instantiate(go, dispenseLocation.position, Quaternion.identity);
-            Destroy(newGo, 10f);
+           // GameObject newGo = (GameObject)Instantiate(go, dispenseLocation.position, Quaternion.identity);
+            //Destroy(newGo, 10f);
         }
     }
 }

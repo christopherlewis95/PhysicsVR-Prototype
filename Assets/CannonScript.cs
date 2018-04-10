@@ -25,20 +25,41 @@ public class CannonScript : MonoBehaviour {
 	float previousAngleX;
 	float currentAngleY;
 	float previousAngleY;
-	float xInitial;
-	float yInitial;
+	float changedX;
+	float changedY;
+
+	float xInitial = 0;
+	float yInitial = 0;
 	float sInitial = 0;
 	float strength;
 	float pstrength;
+	Vector3 initials;
 	float maxStrength = 100;
 	// Use this for initialization
+
+
+
+	void Awake(){
+		//xInitial = this.transform.rotation.eulerAngles.x;
+		//yInitial = this.transform.rotation.eulerAngles.y;
+
+	}
+
+
+
 	void Start () {
 
-
-		xInitial =  Base.transform.rotation.x;
-		yInitial = Base.transform.rotation.y;
 		//sInitial = this.gameObject.transform.rotation.z;
-		
+		//Base = GetComponent<Transform>();
+		initials = this.transform.eulerAngles;
+
+		xInitial = initials.x;
+		changedX = xInitial;
+		print ("X Initial is" + xInitial);
+		yInitial = initials.y;
+		changedY = yInitial;
+		print ("Y Initial is" + yInitial);
+
 		HLever= GameObject.FindGameObjectWithTag("HLever");
 		hLeverData = HLever.GetComponent<HLeverScript> ();
 		 VLever = GameObject.FindGameObjectWithTag("VLever");
@@ -62,17 +83,20 @@ public class CannonScript : MonoBehaviour {
 	void LateUpdate(){
 		
 		if (currentAngleX != previousAngleX) {
-			print (currentAngleX);
+			print ("Current Angle X: " + currentAngleX);
 			previousAngleX = currentAngleX;
-			currentAngleX = currentAngleX + xInitial;
-			Base.transform.eulerAngles = new Vector3(currentAngleX, -currentAngleY, 0);
+			changedX = currentAngleX + xInitial;
+
+			print ("Current Angle X After Reassign: " + currentAngleX);
+			this.transform.eulerAngles = new Vector3(changedX, changedY, 0);
 			//this.transform.Rotate (currentAngleX, 0, 0);
 		}
 		else if (currentAngleY != previousAngleY) {
+			print ("Current Angle Y: " + currentAngleY);
 			previousAngleY = currentAngleY;
-			currentAngleY = currentAngleY + yInitial;
-			print (currentAngleY);
-			Base.transform.eulerAngles = new Vector3(currentAngleX, -currentAngleY, 0);
+			changedY = -currentAngleY + yInitial;
+
+			this.transform.eulerAngles = new Vector3(changedX, changedY, 0);
 			//this.transform.Rotate (0 ,currentAngleY, 0);
 		}
 
