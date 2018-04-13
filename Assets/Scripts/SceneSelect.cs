@@ -21,18 +21,28 @@ public class SceneSelect : MonoBehaviour {
 
 
 			//Use a coroutine to load the Scene in the background
-		StartCoroutine(LoadYourAsyncScene());
+		StartCoroutine(LoadYourAsyncScene("Prototype"));
+
+
+	}
+
+
+	public void TransitionTowerFall(){
+
+
+		//Use a coroutine to load the Scene in the background
+		StartCoroutine(LoadYourAsyncScene("TowerFall"));
 
 
 	}
 
 
 
-	IEnumerator LoadYourAsyncScene()
+	IEnumerator LoadYourAsyncScene(string name)
 	{
 		// The Application loads the Scene in the background at the same time as the current Scene.
 		//This is particularly good for creating loading screens. You could also load the Scene by build //number.
-		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Prototype");
+		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(name);
 
 		//Wait until the last operation fully loads to return anything
 		while (!asyncLoad.isDone)
