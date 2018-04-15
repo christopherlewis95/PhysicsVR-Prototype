@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1795129195, guid: 75c5bf6a77c1f194996e23d1503ebbd3, type: 3}
+  m_Name: New GridData
+  m_EditorClassIdentifier: 
+  m_edgeType: 0
+  m_gridOrigin:
+    m_x: 1
+    m_y: 1
+    m_z: 1
+  m_gridSize: 100
+  m_rotationSnapAngle: 0.1
+  m_xAxisProperties:
+    isVisibleInEditor: 1
+    isSnapEnabled: 1
+    cellSize: 0.15
+    offset: 21.826805
+    rotation: -0
+  m_yAxisProperties:
+    isVisibleInEditor: 1
+    isSnapEnabled: 1
+    cellSize: 0.15
+    offset: 13.279418
+    rotation: 0
+  m_zAxisProperties:
+    isVisibleInEditor: 0
+    isSnapEnabled: 1
+    cellSize: 0.15
+    offset: -29.566036
+    rotation: 0

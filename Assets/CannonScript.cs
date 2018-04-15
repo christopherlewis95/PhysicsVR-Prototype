@@ -6,6 +6,10 @@ using VRTK.Examples;
 
 public class CannonScript : MonoBehaviour {
 
+	public int setBalls = 0;
+
+	public static int numCannonBalls;
+
 	private GameObject HLever;
 	private GameObject VLever;
 	private GameObject SKnob;
@@ -40,6 +44,7 @@ public class CannonScript : MonoBehaviour {
 
 
 	void Awake(){
+		numCannonBalls = setBalls;
 		//xInitial = this.transform.rotation.eulerAngles.x;
 		//yInitial = this.transform.rotation.eulerAngles.y;
 
@@ -111,13 +116,18 @@ public class CannonScript : MonoBehaviour {
 
 	public void shooooooott(){
 		//played = true;
-		var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
-		particleExplosion.Play ();
+
+		if (numCannonBalls != 0) {
+			numCannonBalls--;
+			var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
+			particleExplosion.Play ();
 	
-		StartCoroutine (delay(1));
+			StartCoroutine (delay (1));
 
 
-		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * (40*(strength/maxStrength));
+			bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * (40 * (strength / maxStrength));
+		
+		}
 
 	}
 

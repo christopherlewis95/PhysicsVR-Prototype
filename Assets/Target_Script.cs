@@ -7,13 +7,15 @@ public class Target_Script : MonoBehaviour {
 	public GameObject target;
 	public GameObject explosion;
 	private GameObject scoreObject;
-	private ScoreScript score;
+	private GameInfoScript score;
 	ParticleSystem particleDestroy;
+	public static int numEnemies = 0;
 
 	void Start(){
+		numEnemies++;
 		scoreObject = GameObject.FindGameObjectWithTag ("CannonScore");
 		particleDestroy = explosion.GetComponent<ParticleSystem> ();
-		score = scoreObject.GetComponent<ScoreScript> ();
+		score = scoreObject.GetComponent<GameInfoScript> ();
 		if (score == null)
 			print ("RUH ROH");
 	}
@@ -22,10 +24,11 @@ public class Target_Script : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Cannonball") {
-
+			numEnemies--;
 			particleDestroy.Play ();
 
 			StartCoroutine (delay(1));
+
 
 			target.SetActive (false);
 			Destroy (other.gameObject); // destorys balls (ouch)

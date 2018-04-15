@@ -53,6 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\CannonScript.cs" />
      <Compile Include="Assets\freeCamScript.cs" />
+     <Compile Include="Assets\GameInfoScript.cs" />
+     <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\EditorObject.cs" />
+     <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\GridMover.cs" />
      <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
      <Compile Include="Assets\placementScript.cs" />
@@ -64,7 +67,6 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <Compile Include="Assets\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\ballScript.cs" />
      <Compile Include="Assets\Scripts\boxHeight.cs" />
      <Compile Include="Assets\Scripts\boxScript.cs" />
@@ -76,11 +78,13 @@
      <Compile Include="Assets\Scripts\UIBallScript.cs" />
      <Compile Include="Assets\Scripts\UIBoxScript.cs" />
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
+     <Compile Include="Assets\ShotScript.cs" />
      <Compile Include="Assets\SLeverScript.cs" />
      <Compile Include="Assets\Target_Script.cs" />
      <Compile Include="Assets\Test_Grab.cs" />
      <Compile Include="Assets\test_particle.cs" />
      <Compile Include="Assets\UI_MenuScript.cs" />
+     <Compile Include="Assets\UIEnemyScript.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />
@@ -523,6 +527,7 @@
      <None Include="Assets\Models\whiteBoard\BLENDSWAP_LICENSE.txt" />
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Grids MX\Shaders\GridShader.shader" />
      <None Include="Assets\UnityStore\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
      <None Include="Assets\UnityStore\SteamVR\readme.txt" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
@@ -620,6 +625,12 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/VRUser/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="GridsMX">
+ <HintPath>C:/Users/VRUser/Documents/GitHub/PhysicsVR-Prototype/Assets/Grids MX/Code/GridsMX.dll</HintPath>
+ </Reference>
+ <Reference Include="GridsMXEditor">
+ <HintPath>C:/Users/VRUser/Documents/GitHub/PhysicsVR-Prototype/Assets/Grids MX/Code/Editor/GridsMXEditor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

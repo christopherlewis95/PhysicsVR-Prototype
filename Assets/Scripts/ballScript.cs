@@ -7,14 +7,14 @@ public class ballScript : MonoBehaviour {
 	public Rigidbody rb;
 	public SphereCollider myCollider;
 	public GameObject scoreObject;
-	public ScoreScript score;
+	public GameInfoScript score;
 
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		scoreObject = GameObject.FindGameObjectWithTag ("CannonScore");
-		score = scoreObject.GetComponent<ScoreScript> ();
+		score = scoreObject.GetComponent<GameInfoScript> ();
 	}
 
 	// Update is called once per frame
