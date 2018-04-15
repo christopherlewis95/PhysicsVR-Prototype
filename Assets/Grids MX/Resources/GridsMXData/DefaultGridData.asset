@@ -21,18 +21,18 @@ MonoBehaviour:
   m_xAxisProperties:
     isVisibleInEditor: 1
     isSnapEnabled: 1
-    cellSize: 1
-    offset: 0
-    rotation: 0
+    cellSize: 0.21898
+    offset: 21.614363
+    rotation: -0
   m_yAxisProperties:
     isVisibleInEditor: 1
     isSnapEnabled: 1
-    cellSize: 1
-    offset: 0
+    cellSize: 0.21898
+    offset: 7.3877115
     rotation: 0
   m_zAxisProperties:
     isVisibleInEditor: 1
     isSnapEnabled: 1
-    cellSize: 1
-    offset: 0
+    cellSize: 0.21898
+    offset: -49.796165
     rotation: 0

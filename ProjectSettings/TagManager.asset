@@ -12,6 +12,11 @@ TagManager:
   - CannonScore
   - Target
   - Cannon
+  - Breakable
+  - Projectile
+  - Explosive
+  - Launcher
+  - destructive
   layers:
   - Default
   - TransparentFX

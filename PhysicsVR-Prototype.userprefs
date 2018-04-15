@@ -15,13 +15,14 @@
       <File FileName="Assets\Scripts\boxScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Test_Grab.cs" Line="1" Column="1" />
       <File FileName="Assets\test_particle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ballScript.cs" Line="17" Column="50" />
-      <File FileName="Assets\CannonScript.cs" Line="130" Column="4" />
+      <File FileName="Assets\Scripts\ballScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\CannonScript.cs" Line="1" Column="1" />
       <File FileName="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\ButtonReactor.cs" Line="1" Column="1" />
-      <File FileName="Assets\UI_MenuScript.cs" Line="18" Column="2" />
-      <File FileName="Assets\Target_Script.cs" Line="18" Column="50" />
-      <File FileName="Assets\UIEnemyScript.cs" Line="9" Column="2" />
-      <File FileName="Assets\GameInfoScript.cs" Line="73" Column="58" />
+      <File FileName="Assets\UI_MenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\UIEnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Target_Script.cs" Line="30" Column="30" />
+      <File FileName="Assets\GameInfoScript.cs" Line="71" Column="5" />
+      <File FileName="Assets\destructibleScript.cs" Line="24" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

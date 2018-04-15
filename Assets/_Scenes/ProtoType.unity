@@ -953,7 +953,7 @@ GameObject:
   - component: {fileID: 55986620}
   m_Layer: 0
   m_Name: Ef_VoxelParticle_HitSparcle_02
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,7 +1074,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 1629795028
+  randomSeed: 260540701
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6131,6 +6131,7 @@ Transform:
   m_Children:
   - {fileID: 1966819197}
   - {fileID: 1520059301}
+  - {fileID: 764223717}
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
@@ -6255,7 +6256,7 @@ Transform:
   - {fileID: 628604667}
   - {fileID: 23914531}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: -91, z: -91.9}
 --- !u!1 &198851832
 GameObject:
@@ -6372,7 +6373,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 206416205}
   m_LocalRotation: {x: 0.18301274, y: 0.6830127, z: 0.6830127, w: -0.18301274}
-  m_LocalPosition: {x: -3.276, y: 5.36, z: -46.111}
+  m_LocalPosition: {x: 8.58, y: 6.47, z: -27.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1838277240}
@@ -16404,8 +16405,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764223716}
-  m_LocalRotation: {x: -0, y: -0.956467, z: -0, w: 0.2918407}
-  m_LocalPosition: {x: 34.616, y: 3.4989374, z: 21.25}
+  m_LocalRotation: {x: -0.6763243, y: -0.20636256, z: -0.20636256, w: -0.6763243}
+  m_LocalPosition: {x: -54.906017, y: 92.000015, z: -8.101074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 163845106}
@@ -16422,8 +16423,8 @@ Transform:
   - {fileID: 1063761915}
   - {fileID: 108264909}
   - {fileID: 1058587463}
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 184632592}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -146.06401, z: 0}
 --- !u!1 &766073940
 GameObject:
@@ -16844,6 +16845,10 @@ Prefab:
     - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_Name
       value: Ef_VoxelParticle_HitSparcle_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b61795ec9f758134994ea7504adacafb, type: 2}
@@ -18974,15 +18979,15 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1022398045}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 11.531, y: 8.817, z: -68.023}
+  m_LocalRotation: {x: -0.06125963, y: 0.7044482, z: 0.7044482, w: 0.06125963}
+  m_LocalPosition: {x: 44.755, y: 10.402, z: -17.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1740587864}
   - {fileID: 1152100129}
   m_Father: {fileID: 0}
   m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: -9.94}
 --- !u!1 &1023114924
 GameObject:
   m_ObjectHideFlags: 0
@@ -20644,15 +20649,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4337513478159798, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.285
       objectReference: {fileID: 0}
     - target: {fileID: 4337513478159798, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.617
       objectReference: {fileID: 0}
     - target: {fileID: 4337513478159798, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4337513478159798, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_LocalRotation.x
@@ -20702,6 +20707,10 @@ Prefab:
     - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_Name
       value: Ef_VoxelParticle_HitSparcle_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b61795ec9f758134994ea7504adacafb, type: 2}
@@ -22017,7 +22026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d4fec2b39b08d04e93b8c9e16e71a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setBalls: 30
+  setBalls: 50
   explosion: {fileID: 1533827520}
   Base: {fileID: 1267758189}
   firepoint: {fileID: 1908203670}
@@ -24999,6 +25008,10 @@ Prefab:
     - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
       propertyPath: m_Name
       value: Ef_VoxelParticle_HitSparcle_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103069295406292, guid: b61795ec9f758134994ea7504adacafb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b61795ec9f758134994ea7504adacafb, type: 2}
@@ -32083,7 +32096,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1740587863}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.35, y: 1.72, z: -0}
   m_LocalScale: {x: 1, y: 0.05, z: 1}
   m_Children:
   - {fileID: 1029211641}

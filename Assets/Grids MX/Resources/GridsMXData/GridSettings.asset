@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -674588385, guid: 75c5bf6a77c1f194996e23d1503ebbd3, type: 3}
   m_Name: GridSettings
   m_EditorClassIdentifier: 
-  m_userVersion: 0
+  m_userVersion: 1
   m_gridWindowLayout: 1
   m_showDataManagementOptions: 1
   m_showScrollBars: 0

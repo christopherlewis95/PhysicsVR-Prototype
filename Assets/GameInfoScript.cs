@@ -33,12 +33,21 @@ public class GameInfoScript : MonoBehaviour {
 				finalScore = score * CannonScript.numCannonBalls;
 				scoreOn = false;
 			}
+
+			else if (Target_Script.numEnemies == 0 && CannonScript.numCannonBalls == 0) {
+
+				finalScore = score;
+				scoreOn = false;
+			}
+
 			else if ((CannonScript.numCannonBalls == 0) && Target_Script.numEnemies > 0) {
 
 				print ("UH OH");
 				finalScore = 0;
 				if(!GameOverCanvas.activeInHierarchy)
+				scoreOn = false;
 				GameOverCanvas.SetActive (true);
+				
 			} 
 
 
@@ -60,7 +69,15 @@ public class GameInfoScript : MonoBehaviour {
 			if (enemies == 0) {
 				textBox.text = " TARGETS DOWN ";
 				enemiesOn = false;
+
+
+
 				if(!GameOverCanvas.activeInHierarchy)
+
+
+
+			
+
 				GameOverCanvas.SetActive(true);
 			}
 
@@ -75,8 +92,19 @@ public class GameInfoScript : MonoBehaviour {
 
 	}
 
+
+
 	public void UpdateScore(int additive){
 		score = score + additive;
+	}
+
+
+	IEnumerator delay(int time)
+	{
+		//print(Time.time);
+		yield return new WaitForSeconds(time);
+		//particleDestroy.Stop ();
+		//print(Time.time);
 	}
 
 }
