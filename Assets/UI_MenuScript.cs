@@ -20,6 +20,9 @@ public class UI_MenuScript : MonoBehaviour {
 	public void MainMenu (){
 
 		SceneManager.LoadScene("TestMenu");
+		CannonScript.numCannonBalls = 0;
+		Target_Script.numEnemies = 0;
+
 	}
 
 	public void QuitApplication(){

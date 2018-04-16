@@ -207,7 +207,6 @@ C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Assembly-CS
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Facebook.Unity.Settings.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\nunit.framework.dll
-C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.dll
@@ -245,7 +244,6 @@ C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.Legac
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.UNetWeaver.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.Cecil.Mdb.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
-C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
@@ -347,3 +345,5 @@ C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Un
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.pdb
+C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMX.dll
+C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMXEditor.dll

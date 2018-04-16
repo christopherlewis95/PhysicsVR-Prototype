@@ -15,6 +15,9 @@ public class CannonScript : MonoBehaviour {
 	private GameObject SKnob;
 	public GameObject explosion;
 
+	public GameObject blast;
+	AudioSource cannonBlast;
+
 	HLeverScript hLeverData;
 	VLeverScript vLeverData;
 	SLeverScript sKnobData;
@@ -73,6 +76,7 @@ public class CannonScript : MonoBehaviour {
 		sKnobData = SKnob.GetComponent<SLeverScript> ();
 
 		particleExplosion = explosion.GetComponent<ParticleSystem> ();
+		cannonBlast = blast.GetComponent<AudioSource> ();
 
 	}
 	
@@ -121,8 +125,9 @@ public class CannonScript : MonoBehaviour {
 			numCannonBalls--;
 			var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
 			particleExplosion.Play ();
+			cannonBlast.Play ();
 	
-			StartCoroutine (delay (1));
+			StartCoroutine (delay (2));
 
 
 			bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * (40 * (strength / maxStrength));
@@ -136,6 +141,7 @@ public class CannonScript : MonoBehaviour {
 		//print(Time.time);
 		yield return new WaitForSeconds(time);
 		particleExplosion.Stop ();
+		cannonBlast.Stop ();
 		//print(Time.time);
 	}
 }

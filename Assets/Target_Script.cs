@@ -6,13 +6,17 @@ using UnityEngine.UI;
 public class Target_Script : MonoBehaviour {
 	public GameObject target;
 	public GameObject explosion;
+	public GameObject shatter;
 	private GameObject scoreObject;
 	private GameInfoScript score;
+
+	AudioSource shatterSound;
 	ParticleSystem particleDestroy;
 	public static int numEnemies = 0;
 
 	void Start(){
 		numEnemies++;
+		shatterSound = shatter.GetComponent<AudioSource> ();
 		scoreObject = GameObject.FindGameObjectWithTag ("CannonScore");
 		particleDestroy = explosion.GetComponent<ParticleSystem> ();
 		score = scoreObject.GetComponent<GameInfoScript> ();
@@ -26,8 +30,8 @@ public class Target_Script : MonoBehaviour {
 		if (other.tag == "Cannonball") {
 			numEnemies--;
 			particleDestroy.Play ();
-
-			StartCoroutine (delay(1));
+			shatterSound.Play ();
+			StartCoroutine (delay(2));
 
 
 			target.SetActive (false);
@@ -47,6 +51,7 @@ public class Target_Script : MonoBehaviour {
 		//print(Time.time);
 		yield return new WaitForSeconds(time);
 		particleDestroy.Stop ();
+		shatterSound.Stop ();
 		//print(Time.time);
 	}
 }
