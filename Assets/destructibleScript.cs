@@ -6,23 +6,13 @@ public class destructibleScript : MonoBehaviour {
 
 	public GameObject replacement;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-	void OnCollisionEnter (Collision col)
+
+	void OnCollisionEnter ()
 	{
-		if(col.gameObject.tag == "destructive")
-		{
-			replacement.SetActive (true);
-			gameObject.SetActive (false);
-		}
+
+		GameObject.Instantiate (replacement, transform.position, transform.rotation);
+		Destroy (gameObject);
 	}
 
 }

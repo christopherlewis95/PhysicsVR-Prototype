@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameInfoScript : MonoBehaviour {
 	public GameObject GameOverCanvas;
 	public static int Handicap = 0;
-	public int score = 0;
+	public static int score = 0;
 	public static int finalScore;
 	public bool ballsOn;
 	public bool scoreOn;
