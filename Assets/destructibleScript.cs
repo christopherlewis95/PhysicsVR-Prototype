@@ -10,9 +10,9 @@ public class destructibleScript : MonoBehaviour {
 
 	void OnCollisionEnter ()
 	{
-
-		GameObject.Instantiate (replacement, transform.position, transform.rotation);
 		Destroy (gameObject);
+		GameObject.Instantiate (replacement, transform.position, transform.rotation);
+
 	}
 
 }

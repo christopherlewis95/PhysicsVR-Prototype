@@ -347,3 +347,5 @@ C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\obj\Debug\Assembl
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\obj\Debug\Assembly-CSharp.pdb
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMX.dll
 C:\Users\dfergus\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMXEditor.dll
+C:\Users\VRUser\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMX.dll
+C:\Users\VRUser\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMXEditor.dll
