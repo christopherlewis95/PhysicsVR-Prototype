@@ -650,8 +650,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33832256}
   m_LocalRotation: {x: -0, y: -0.000083059065, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1238108, y: 1.818002, z: -0.33200443}
-  m_LocalScale: {x: 0.03947312, y: 0.03947304, z: 0.03947312}
+  m_LocalPosition: {x: 2.087, y: 1.818002, z: -0.3568}
+  m_LocalScale: {x: 0.03947312, y: 0.035483904, z: 0.03947312}
   m_Children: []
   m_Father: {fileID: 764223717}
   m_RootOrder: 6
@@ -663,7 +663,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33832256}
-  m_Text: 0
+  m_Text: 'Up/Down: 0'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -20055,8 +20055,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080164290}
   m_LocalRotation: {x: -0, y: -0.00008288026, z: -0, w: 1}
-  m_LocalPosition: {x: 2.65, y: 1.797, z: -0.3297}
-  m_LocalScale: {x: 0.03947241, y: 0.03947239, z: 0.039472412}
+  m_LocalPosition: {x: 2.597, y: 1.852, z: -0.307}
+  m_LocalScale: {x: 0.03947241, y: 0.0334942, z: 0.039472412}
   m_Children: []
   m_Father: {fileID: 764223717}
   m_RootOrder: 8
@@ -20068,7 +20068,9 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080164290}
-  m_Text: 0
+  m_Text: 'Power:
+
+    0'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -33590,7 +33592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit Game
+  m_Text: Replay Level
 --- !u!222 &1772981121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35970,7 +35972,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: Quit to Main Menu
 --- !u!222 &1939630470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36001,8 +36003,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943825368}
   m_LocalRotation: {x: -0, y: -0.000083059065, z: -0, w: 1}
-  m_LocalPosition: {x: 1.738, y: 1.818, z: -0.332}
-  m_LocalScale: {x: 0.039472397, y: 0.039472397, z: 0.039472457}
+  m_LocalPosition: {x: 1.7207, y: 1.818, z: -0.3436}
+  m_LocalScale: {x: 0.039472397, y: 0.034492683, z: 0.039472457}
   m_Children: []
   m_Father: {fileID: 764223717}
   m_RootOrder: 3
@@ -36014,7 +36016,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943825368}
-  m_Text: 0
+  m_Text: 'Left/Right: 0'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

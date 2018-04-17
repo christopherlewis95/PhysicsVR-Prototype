@@ -5461,7 +5461,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit Game
+  m_Text: Replay Level
 --- !u!222 &405492921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7134,7 +7134,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: Quit to Main Menu
 --- !u!222 &525929613
 CanvasRenderer:
   m_ObjectHideFlags: 0
