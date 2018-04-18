@@ -650,7 +650,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33832256}
   m_LocalRotation: {x: -0, y: -0.000083059065, z: -0, w: 1}
-  m_LocalPosition: {x: 2.087, y: 1.818002, z: -0.3568}
+  m_LocalPosition: {x: 2.032, y: 1.818002, z: -0.343}
   m_LocalScale: {x: 0.03947312, y: 0.035483904, z: 0.03947312}
   m_Children: []
   m_Father: {fileID: 764223717}
@@ -663,14 +663,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 33832256}
-  m_Text: 'Up/Down: 0'
+  m_Text: 'Arc: 0 Degrees'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 10
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -5587,7 +5587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1155246131}
-        m_MethodName: QuitApplication
+        m_MethodName: TransitionKinematics
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14620,7 +14620,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 580218210}
   m_LocalRotation: {x: 0.49997607, y: 0.50002396, z: -0.49997607, w: -0.50002396}
-  m_LocalPosition: {x: 2.533, y: 1.706, z: -0.3265}
+  m_LocalPosition: {x: 2.533, y: 1.673, z: -0.327}
   m_LocalScale: {x: 0.15426609, y: 0.016192915, z: 0.15426627}
   m_Children:
   - {fileID: 1674452894}
@@ -17260,7 +17260,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1155246131}
-        m_MethodName: MainMenu
+        m_MethodName: TransitionMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20055,7 +20055,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080164290}
   m_LocalRotation: {x: -0, y: -0.00008288026, z: -0, w: 1}
-  m_LocalPosition: {x: 2.597, y: 1.852, z: -0.307}
+  m_LocalPosition: {x: 2.487, y: 1.818002, z: -0.341}
   m_LocalScale: {x: 0.03947241, y: 0.0334942, z: 0.039472412}
   m_Children: []
   m_Father: {fileID: 764223717}
@@ -20068,16 +20068,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080164290}
-  m_Text: 'Power:
-
-    0'
+  m_Text: 'Power: 0 %'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 10
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -21456,8 +21454,8 @@ GameObject:
   - component: {fileID: 1155246134}
   - component: {fileID: 1155246133}
   - component: {fileID: 1155246132}
-  - component: {fileID: 1155246131}
   - component: {fileID: 1155246135}
+  - component: {fileID: 1155246131}
   m_Layer: 0
   m_Name: WHITE BOARD
   m_TagString: Untagged
@@ -21497,7 +21495,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1155246129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f3a843835ec3d4181c694b9d838106, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ca95618d7b15c144af9975b3e9f8888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1155246132
@@ -36003,7 +36001,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943825368}
   m_LocalRotation: {x: -0, y: -0.000083059065, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7207, y: 1.818, z: -0.3436}
+  m_LocalPosition: {x: 1.565, y: 1.818, z: -0.344}
   m_LocalScale: {x: 0.039472397, y: 0.034492683, z: 0.039472457}
   m_Children: []
   m_Father: {fileID: 764223717}
@@ -36016,14 +36014,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1943825368}
-  m_Text: 'Left/Right: 0'
+  m_Text: 'Left/Right: 0 Degrees'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 10
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}

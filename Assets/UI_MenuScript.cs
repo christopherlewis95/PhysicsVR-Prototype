@@ -25,8 +25,10 @@ public class UI_MenuScript : MonoBehaviour {
 
 	}
 
-	public void QuitApplication(){
+	public void ReplayLevel(){
 
-		Application.Quit ();
+		SceneManager.LoadScene("ProtoType");
+		CannonScript.numCannonBalls = 0;
+		Target_Script.numEnemies = 0;
 	}
 }

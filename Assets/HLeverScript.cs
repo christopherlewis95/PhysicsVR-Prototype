@@ -22,7 +22,7 @@
 
 		private void HandleChange(object sender, Control3DEventArgs e)
 		{
-			go.text = e.value.ToString() ;
+			go.text = "Left/Right: " +e.value.ToString() + " Degrees";
 			angle = e.value;
 		}
 

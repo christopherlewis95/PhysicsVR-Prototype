@@ -18,7 +18,11 @@ public class SceneSelect : MonoBehaviour {
 	}
 
 	public void TransitionKinematics (){
-
+		CannonScript.numCannonBalls = 0;
+		Target_Script.numEnemies = 0;
+		GameInfoScript.score = 0;
+		GameInfoScript.finalScore = 0;
+		DestroyAllGameObjects ();
 
 			//Use a coroutine to load the Scene in the background
 		StartCoroutine(LoadYourAsyncScene("Prototype"));
@@ -28,7 +32,12 @@ public class SceneSelect : MonoBehaviour {
 
 
 	public void TransitionTowerFall(){
+		CannonScript.numCannonBalls = 0;
+		Target_Script.numEnemies = 0;		
+		GameInfoScript.score = 0;
+		GameInfoScript.finalScore = 0;
 
+		DestroyAllGameObjects ();
 
 		//Use a coroutine to load the Scene in the background
 		StartCoroutine(LoadYourAsyncScene("TowerFall"));
@@ -36,7 +45,27 @@ public class SceneSelect : MonoBehaviour {
 
 	}
 
+	public void TransitionMenu(){
+		CannonScript.numCannonBalls = 0;
+		Target_Script.numEnemies = 0;
+		GameInfoScript.score = 0;
+		GameInfoScript.finalScore = 0;
+		DestroyAllGameObjects ();
 
+		//Use a coroutine to load the Scene in the background
+		StartCoroutine(LoadYourAsyncScene("TestMenu"));
+
+
+	}
+	private void DestroyAllGameObjects(){
+
+		GameObject[] GameObjects = (FindObjectsOfType<GameObject> () as GameObject[]);
+
+		for (int i = 0; i < GameObjects.Length; i++) {
+			Destroy (GameObjects [i]);
+
+		}
+	}
 
 	IEnumerator LoadYourAsyncScene(string name)
 	{
