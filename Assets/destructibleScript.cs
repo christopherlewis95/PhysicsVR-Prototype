@@ -10,8 +10,12 @@ public class destructibleScript : MonoBehaviour {
 
 	void OnCollisionEnter ()
 	{
-		Destroy (gameObject);
-		GameObject.Instantiate (replacement, transform.position, transform.rotation);
+		
+			GameObject.Instantiate (replacement, transform.position, transform.rotation);
+			//replacement.transform.localScale = gameObject.transform.lossyScale;
+
+
+			Destroy (gameObject);
 
 	}
 

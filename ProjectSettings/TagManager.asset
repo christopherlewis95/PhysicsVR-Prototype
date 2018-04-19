@@ -17,6 +17,7 @@ TagManager:
   - Explosive
   - Launcher
   - destructive
+  - ground
   layers:
   - Default
   - TransparentFX
