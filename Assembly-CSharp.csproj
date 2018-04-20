@@ -51,14 +51,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\cameramovescript.cs" />
      <Compile Include="Assets\CannonScript.cs" />
      <Compile Include="Assets\destructibleScript.cs" />
+     <Compile Include="Assets\FlyCamera.cs" />
      <Compile Include="Assets\freeCamScript.cs" />
      <Compile Include="Assets\GameInfoScript.cs" />
      <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\EditorObject.cs" />
      <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\GridMover.cs" />
      <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
+     <Compile Include="Assets\linearmovescript.cs" />
      <Compile Include="Assets\placementScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
