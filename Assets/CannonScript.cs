@@ -120,7 +120,7 @@ public class CannonScript : MonoBehaviour {
 
 	public void shooooooott(){
 		//played = true;
-
+		print("YES");
 		if (numCannonBalls != 0) {
 			numCannonBalls--;
 			var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);

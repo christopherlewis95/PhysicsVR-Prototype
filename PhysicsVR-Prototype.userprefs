@@ -16,16 +16,15 @@
       <File FileName="Assets\Test_Grab.cs" Line="1" Column="1" />
       <File FileName="Assets\test_particle.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ballScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\CannonScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\CannonScript.cs" Line="9" Column="25" />
       <File FileName="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\ButtonReactor.cs" Line="1" Column="1" />
       <File FileName="Assets\UI_MenuScript.cs" Line="1" Column="1" />
       <File FileName="Assets\UIEnemyScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Target_Script.cs" Line="1" Column="1" />
       <File FileName="Assets\GameInfoScript.cs" Line="1" Column="1" />
       <File FileName="Assets\destructibleScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\cameramovescript.cs" Line="20" Column="7" />
-      <File FileName="Assets\linearmovescript.cs" Line="11" Column="3" />
-      <File FileName="Assets\FlyCamera.cs" Line="22" Column="46" />
+      <File FileName="Assets\cameramovescript.cs" Line="1" Column="1" />
+      <File FileName="Assets\FlyCamera.cs" Line="25" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
