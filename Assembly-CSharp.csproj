@@ -57,12 +57,12 @@
      <Compile Include="Assets\FlyCamera.cs" />
      <Compile Include="Assets\freeCamScript.cs" />
      <Compile Include="Assets\GameInfoScript.cs" />
+     <Compile Include="Assets\GlobalPowerScript.cs" />
      <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\EditorObject.cs" />
      <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\GridMover.cs" />
      <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
-     <Compile Include="Assets\linearmovescript.cs" />
-     <Compile Include="Assets\placementScript.cs" />
+     <Compile Include="Assets\PowerScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -533,6 +533,7 @@
      <None Include="Assets\UnityStore\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\Grids MX\Shaders\GridShader.shader" />
      <None Include="Assets\UnityStore\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+     <None Include="Assets\UnityStore\FREE Food Pack\Shaders\Food.shader" />
      <None Include="Assets\UnityStore\SteamVR\readme.txt" />
      <None Include="Assets\UnityStore\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\UnityStore\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />

@@ -14,8 +14,10 @@ public class destructibleScript : MonoBehaviour {
 			GameObject.Instantiate (replacement, transform.position, transform.rotation);
 			//replacement.transform.localScale = gameObject.transform.lossyScale;
 
-
 			Destroy (gameObject);
+			
+
+
 
 	}
 

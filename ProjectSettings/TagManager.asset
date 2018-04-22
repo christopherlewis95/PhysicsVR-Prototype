@@ -18,6 +18,7 @@ TagManager:
   - Launcher
   - destructive
   - ground
+  - mouth
   layers:
   - Default
   - TransparentFX
