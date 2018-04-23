@@ -22,6 +22,7 @@ public class SceneSelect : MonoBehaviour {
 		Target_Script.numEnemies = 0;
 		GameInfoScript.score = 0;
 		GameInfoScript.finalScore = 0;
+		GlobalDestroyObjectScript.numObjects = 0;
 		DestroyAllGameObjects ();
 
 			//Use a coroutine to load the Scene in the background
@@ -36,6 +37,7 @@ public class SceneSelect : MonoBehaviour {
 		Target_Script.numEnemies = 0;		
 		GameInfoScript.score = 0;
 		GameInfoScript.finalScore = 0;
+		GlobalDestroyObjectScript.numObjects = 0;
 
 		DestroyAllGameObjects ();
 
@@ -50,8 +52,9 @@ public class SceneSelect : MonoBehaviour {
 		Target_Script.numEnemies = 0;
 		GameInfoScript.score = 0;
 		GameInfoScript.finalScore = 0;
+		GlobalDestroyObjectScript.numObjects = 0;
 		DestroyAllGameObjects ();
-
+	
 		//Use a coroutine to load the Scene in the background
 		StartCoroutine(LoadYourAsyncScene("TestMenu"));
 

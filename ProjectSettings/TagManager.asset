@@ -19,6 +19,7 @@ TagManager:
   - destructive
   - ground
   - mouth
+  - safe
   layers:
   - Default
   - TransparentFX

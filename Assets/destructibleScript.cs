@@ -10,11 +10,13 @@ public class destructibleScript : MonoBehaviour {
 
 	void OnCollisionEnter ()
 	{
-
+		if (isDestroyed == false) {
 			GameObject.Instantiate (replacement, transform.position, transform.rotation);
+			if(gameObject.tag != "safe")
 			GlobalDestroyObjectScript.numObjects--;
 			Destroy (gameObject);
-
+			isDestroyed = true;
+		}
 
 			
 
