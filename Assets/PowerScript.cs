@@ -9,6 +9,8 @@ public class PowerScript : MonoBehaviour {
 
 	public GameObject hand;
 	public VRTK_InteractGrab grabdata;
+	//public GameObject attachedSphere;
+
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +29,7 @@ public class PowerScript : MonoBehaviour {
 
 		if (other.tag == "mouth") {
 			GlobalPowerScript.powerOn = true;
-
+			//attachedSphere.SetActive (false);
 
 			Destroy (other.gameObject);
 			hand.SetActive (true);

@@ -5,16 +5,17 @@ using UnityEngine;
 public class destructibleScript : MonoBehaviour {
 
 	public GameObject replacement;
-
+	bool isDestroyed = false;
 
 
 	void OnCollisionEnter ()
 	{
-		
-			GameObject.Instantiate (replacement, transform.position, transform.rotation);
-			//replacement.transform.localScale = gameObject.transform.lossyScale;
 
+			GameObject.Instantiate (replacement, transform.position, transform.rotation);
+			GlobalDestroyObjectScript.numObjects--;
 			Destroy (gameObject);
+
+
 			
 
 

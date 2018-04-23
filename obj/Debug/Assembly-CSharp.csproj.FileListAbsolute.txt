@@ -278,7 +278,6 @@ C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Fa
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMX.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\GridsMXEditor.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\nunit.framework.dll
-C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.dll
@@ -316,7 +315,6 @@ C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Un
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.UNetWeaver.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.Cecil.Mdb.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
-C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 C:\Users\christopherlewis\Documents\GitHub\PhysicsVR-Prototype\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
