@@ -40,7 +40,7 @@ public class DestructibleScriptTrigger : MonoBehaviour {
 
 		if (isWall == true) {
 
-			if (other.tag == "destructive") {
+			if (other.tag == "destructive" || other.tag == "heavy" ) {
 
 				if (isDestroyed == false) {
 					GameObject.Instantiate (replacement, transform.position, transform.rotation);

@@ -8,7 +8,7 @@ public class destructibleScript : MonoBehaviour {
 	bool isDestroyed = false;
 
 
-	void OnCollisionEnter (Collider other)
+	void OnCollisionEnter ()
 	{
 		
 			if (isDestroyed == false) {

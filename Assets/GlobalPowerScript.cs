@@ -8,6 +8,10 @@ public class GlobalPowerScript : MonoBehaviour {
 	public GameObject controller;
 	SteamVR_RenderModel model;
 
+	bool powerOverride = false;
+
+	//private GameObject[] allDestructiveObjects ;
+
 	// Use this for initialization
 	void Start () {
 		powerOn = false;
@@ -19,6 +23,17 @@ public class GlobalPowerScript : MonoBehaviour {
 		if (powerOn == true) {
 			print ("POWER OVERRIDE");
 			//model.modelOverride = "Hand";
+
+			if (powerOverride == false) {
+				/*GameObject[] GameObjects = (GameObject.FindGameObjectsWithTag ("destructive") as GameObject[]);
+				//GameObject[] ChildrenObjects = (GameObject.Fi ("destructive") as GameObject[])
+
+				for (int i = 0; i < GameObjects.Length; i++) {
+					GameObjects [i].tag = "heavy";
+
+				}*/
+				powerOverride = true;
+			}
 		}
 	}
 }

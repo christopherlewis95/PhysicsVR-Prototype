@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4889101483277870}
   - component: {fileID: 33623818748145338}
   - component: {fileID: 23508390061225824}
-  - component: {fileID: 64281098900974980}
   - component: {fileID: 114996630979240482}
   - component: {fileID: 114219015781815836}
+  - component: {fileID: 64197578708386752}
   m_Layer: 0
   m_Name: Medieval_house
   m_TagString: Untagged
@@ -85,7 +85,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853561993469096}
   m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
---- !u!64 &64281098900974980
+--- !u!64 &64197578708386752
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -96,7 +96,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 12
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
 --- !u!114 &114219015781815836
