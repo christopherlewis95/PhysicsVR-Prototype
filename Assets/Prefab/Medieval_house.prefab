@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4889101483277870}
   - component: {fileID: 33623818748145338}
   - component: {fileID: 23508390061225824}
-  - component: {fileID: 114499275713905466}
   - component: {fileID: 64281098900974980}
   - component: {fileID: 114996630979240482}
+  - component: {fileID: 114219015781815836}
   m_Layer: 0
   m_Name: Medieval_house
   m_TagString: Untagged
@@ -37,8 +37,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853561993469096}
-  m_LocalRotation: {x: -0.000000011315089, y: -0.9540191, z: 0.00000003601322, w: 0.2997458}
-  m_LocalPosition: {x: 7.99, y: 4.014, z: -16.48}
+  m_LocalRotation: {x: -0.000000031031835, y: 0.56940365, z: -0.000000021494388, w: 0.82205814}
+  m_LocalPosition: {x: 29.08312, y: 4.02, z: -22.104841}
   m_LocalScale: {x: 0.32269728, y: 0.32269728, z: 0.32269728}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,7 +99,7 @@ MeshCollider:
   m_CookingOptions: 12
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
---- !u!114 &114499275713905466
+--- !u!114 &114219015781815836
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -107,11 +107,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1853561993469096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f5610deb18b5c498e95878dcbde100, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c6bd5d95d6177847a21d80cede7b2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   replacement: {fileID: 1730704276717640, guid: c6a0bfe81adb98c439639483c03f6770,
     type: 2}
+  isHouse: 1
+  isWall: 0
 --- !u!114 &114996630979240482
 MonoBehaviour:
   m_ObjectHideFlags: 1

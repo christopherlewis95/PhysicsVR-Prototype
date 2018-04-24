@@ -8,6 +8,7 @@
         private InputField input;
 		private GameObject field;
 		private InputScript inputData;
+		static int count = 0;
 		//public Button[] buttons;
 
 		void Start()
@@ -43,8 +44,18 @@
 
 		private void checkValues(){
 
+			inputData.activeButton (count, input.text);
+			input.text = "";
+			if (count != 2)
+				count++;
+			else {
+				count = 0;
+			}
+
+
+			/*
 			if (input.text == "VINH LE") {
-				//mainInputField.text = "";
+				//
 				inputData.activeButton(0);
 			}
 
@@ -52,7 +63,7 @@
 				//mainInputField.text = "";
 				inputData.activeButton(1);
 			}
-
+			*/
 
 		}
 

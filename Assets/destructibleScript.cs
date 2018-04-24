@@ -8,17 +8,18 @@ public class destructibleScript : MonoBehaviour {
 	bool isDestroyed = false;
 
 
-	void OnCollisionEnter ()
+	void OnCollisionEnter (Collider other)
 	{
-		if (isDestroyed == false) {
-			GameObject.Instantiate (replacement, transform.position, transform.rotation);
-			if(gameObject.tag != "safe")
-			GlobalDestroyObjectScript.numObjects--;
-			Destroy (gameObject);
-			isDestroyed = true;
-		}
+		
+			if (isDestroyed == false) {
+				GameObject.Instantiate (replacement, transform.position, transform.rotation);
+				if (gameObject.tag != "safe")
+					GlobalDestroyObjectScript.numObjects--;
+				Destroy (gameObject);
+				isDestroyed = true;
+			}
 
-			
+
 
 
 

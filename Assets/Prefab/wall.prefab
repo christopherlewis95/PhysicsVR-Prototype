@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33610177873679756}
   - component: {fileID: 23768218066444912}
   - component: {fileID: 65076082487945902}
-  - component: {fileID: 114271867257795516}
-  - component: {fileID: 54043119713259680}
   - component: {fileID: 114215373099616440}
+  - component: {fileID: 54059112493269542}
+  - component: {fileID: 114824867574628084}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -66,14 +66,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1927507147530694}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 18.344, y: 5.256, z: -31.386}
+  m_LocalRotation: {x: -0, y: 0.37304902, z: -0, w: 0.9278117}
+  m_LocalPosition: {x: 27.62, y: 5.256, z: -12.15}
   m_LocalScale: {x: 0.43005413, y: 0.43005413, z: 0.43005413}
   m_Children:
   - {fileID: 4564011002106072}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 43.808002, z: 0}
 --- !u!23 &23768218066444912
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -115,7 +115,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651359796370708}
   m_Mesh: {fileID: 4300000, guid: 5ec2ac2835b6f8f4d869ce5b68a8b3d2, type: 3}
---- !u!54 &54043119713259680
+--- !u!54 &54059112493269542
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -128,7 +128,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &65076082487945902
 BoxCollider:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005dc1a613ebaf54289e56b13e99039e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114271867257795516
+--- !u!114 &114824867574628084
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -161,8 +161,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651359796370708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f5610deb18b5c498e95878dcbde100, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c6bd5d95d6177847a21d80cede7b2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   replacement: {fileID: 1786503092050148, guid: 63219c4d7f6587740a4205a432f43780,
     type: 2}
+  isHouse: 0
+  isWall: 1

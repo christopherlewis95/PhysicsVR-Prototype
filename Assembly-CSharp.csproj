@@ -54,9 +54,11 @@
      <Compile Include="Assets\cameramovescript.cs" />
      <Compile Include="Assets\CannonScript.cs" />
      <Compile Include="Assets\destructibleScript.cs" />
+     <Compile Include="Assets\DestructibleScriptTrigger.cs" />
      <Compile Include="Assets\FlyCamera.cs" />
      <Compile Include="Assets\freeCamScript.cs" />
      <Compile Include="Assets\GameInfoScript.cs" />
+     <Compile Include="Assets\GlobalControlScript.cs" />
      <Compile Include="Assets\GlobalDestroyObjectScript.cs" />
      <Compile Include="Assets\GlobalPowerScript.cs" />
      <Compile Include="Assets\Grids MX\Examples\2-IngameExample\Scripts\EditorObject.cs" />
@@ -64,6 +66,7 @@
      <Compile Include="Assets\HLeverScript.cs" />
      <Compile Include="Assets\IntegrityScript.cs" />
      <Compile Include="Assets\InteractableItem.cs" />
+     <Compile Include="Assets\PickUpScript.cs" />
      <Compile Include="Assets\PowerScript.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -86,6 +89,7 @@
      <Compile Include="Assets\Scripts\VelocityScript.cs" />
      <Compile Include="Assets\ShotScript.cs" />
      <Compile Include="Assets\SLeverScript.cs" />
+     <Compile Include="Assets\SpawnScript.cs" />
      <Compile Include="Assets\Target_Script.cs" />
      <Compile Include="Assets\Test_Grab.cs" />
      <Compile Include="Assets\test_particle.cs" />

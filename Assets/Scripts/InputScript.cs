@@ -8,6 +8,7 @@ public class InputScript : MonoBehaviour {
 
 	public InputField mainInputField;
 	public Button[] buttons;
+	Text textbox;
 	// private InventoryScript myInventory;
 
 	public void Start()
@@ -90,13 +91,26 @@ public class InputScript : MonoBehaviour {
 
 */
 	}
-	public void activeButton(int index){
+	public void activeButton(int index, string name){
 
-		if(index == 0)
-		buttons [0].gameObject.SetActive (true);
+		if (index == 0) {
+			buttons [0].gameObject.SetActive (true);
+			textbox = buttons [0].GetComponentInChildren<Text> ();
+			textbox.text = name;
 
-		if(index == 1)
+
+		}
+
+		if (index == 1) {
 			buttons [1].gameObject.SetActive (true);
+			textbox = buttons [1].GetComponentInChildren<Text> ();
+			textbox.text = name;
+		}
 
+		if (index == 2) {
+			buttons [2].gameObject.SetActive (true);
+			textbox = buttons [2].GetComponentInChildren<Text> ();
+			textbox.text = name;
+		}
 	}
 }

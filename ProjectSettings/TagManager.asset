@@ -20,6 +20,9 @@ TagManager:
   - ground
   - mouth
   - safe
+  - Net
+  - heavy
+  - foam
   layers:
   - Default
   - TransparentFX
