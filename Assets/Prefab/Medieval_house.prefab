@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6bd5d95d6177847a21d80cede7b2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  replacement: {fileID: 1730704276717640, guid: c6a0bfe81adb98c439639483c03f6770,
+  replacement: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
     type: 2}
   isHouse: 1
   isWall: 0

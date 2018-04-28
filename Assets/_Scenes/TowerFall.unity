@@ -347,28 +347,15 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114825596709838782, guid: 80bdae72ca5425e46936d22684d632c7,
+        type: 2}
+      propertyPath: replacement
+      value: 
+      objectReference: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80bdae72ca5425e46936d22684d632c7, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &26211558 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1981867821777124, guid: 80bdae72ca5425e46936d22684d632c7,
-    type: 2}
-  m_PrefabInternal: {fileID: 26211557}
---- !u!64 &26211559
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 26211558}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
 --- !u!1 &29508885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5344,12 @@ Prefab:
       propertyPath: m_Name
       value: Medieval_house (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114825596709838782, guid: 80bdae72ca5425e46936d22684d632c7,
+        type: 2}
+      propertyPath: replacement
+      value: 
+      objectReference: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80bdae72ca5425e46936d22684d632c7, type: 2}
   m_IsPrefabParent: 0
@@ -19841,7 +19834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947b27445602ed640b885db7e667dfc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabButton: 7
+  grabButton: 3
   grabPrecognition: 0
   throwMultiplier: 1
   createRigidBodyWhenNotTouching: 0
@@ -19937,6 +19930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1240405169}
+  grabButton: 15
 --- !u!135 &1240405175
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21388,7 +21382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947b27445602ed640b885db7e667dfc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabButton: 7
+  grabButton: 3
   grabPrecognition: 0
   throwMultiplier: 1
   createRigidBodyWhenNotTouching: 0
@@ -35115,29 +35109,16 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114825596709838782, guid: 80bdae72ca5425e46936d22684d632c7,
+        type: 2}
+      propertyPath: replacement
+      value: 
+      objectReference: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 80bdae72ca5425e46936d22684d632c7, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2065276861 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1981867821777124, guid: 80bdae72ca5425e46936d22684d632c7,
-    type: 2}
-  m_PrefabInternal: {fileID: 2065276860}
---- !u!64 &2065276862
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2065276861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
 --- !u!1001 &2073181156
 Prefab:
   m_ObjectHideFlags: 0
@@ -36175,28 +36156,15 @@ Prefab:
       propertyPath: m_Name
       value: Medieval_house (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114825596709838782, guid: 80bdae72ca5425e46936d22684d632c7,
+        type: 2}
+      propertyPath: replacement
+      value: 
+      objectReference: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80bdae72ca5425e46936d22684d632c7, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2132271593 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1981867821777124, guid: 80bdae72ca5425e46936d22684d632c7,
-    type: 2}
-  m_PrefabInternal: {fileID: 2132271592}
---- !u!64 &2132271594
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2132271593}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 6d261572b8dfb574888f3be9287f022b, type: 3}
 --- !u!1001 &2134469800
 Prefab:
   m_ObjectHideFlags: 0

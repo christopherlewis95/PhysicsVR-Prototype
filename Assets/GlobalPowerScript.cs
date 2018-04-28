@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
 
 public class GlobalPowerScript : MonoBehaviour {
 
 	public static bool powerOn;
 	public GameObject controller;
 	SteamVR_RenderModel model;
+
+	public VRTK_ControllerEvents.ButtonAlias grabButton = VRTK_ControllerEvents.ButtonAlias.StartMenuPress;
 
 	bool powerOverride = false;
 
@@ -16,10 +19,16 @@ public class GlobalPowerScript : MonoBehaviour {
 	void Start () {
 		powerOn = false;
 		model = controller.GetComponent<SteamVR_RenderModel> ();
+
+
 	}
 
 	// Update is called once per frame
 	void Update () {
+
+
+
+
 		if (powerOn == true) {
 			print ("POWER OVERRIDE");
 			//model.modelOverride = "Hand";
@@ -35,5 +44,12 @@ public class GlobalPowerScript : MonoBehaviour {
 				powerOverride = true;
 			}
 		}
+
+		/*
+		if (grabButton) {
+
+			print ("OI");
+		}
+		*/
 	}
 }

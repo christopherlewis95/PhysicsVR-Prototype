@@ -9,6 +9,8 @@ public class PowerScript : MonoBehaviour {
 
 	public GameObject hand;
 	public VRTK_InteractGrab grabdata;
+
+
 	//public GameObject attachedSphere;
 
 
@@ -21,6 +23,10 @@ public class PowerScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+
+
+
 
 	}
 

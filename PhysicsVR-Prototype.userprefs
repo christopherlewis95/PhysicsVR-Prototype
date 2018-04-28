@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\UI_Keyboard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GlobalPowerScript.cs">
     <Files>
       <File FileName="Assets\Scripts\SceneSelect.cs" Line="1" Column="1" />
       <File FileName="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\ControlReactor.cs" Line="1" Column="1" />
@@ -22,16 +22,16 @@
       <File FileName="Assets\cameramovescript.cs" Line="1" Column="1" />
       <File FileName="Assets\FlyCamera.cs" Line="1" Column="1" />
       <File FileName="Assets\Target_Script.cs" Line="1" Column="1" />
-      <File FileName="Assets\GlobalPowerScript.cs" Line="5" Column="31" />
-      <File FileName="Assets\PowerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\IntegrityScript.cs" Line="25" Column="49" />
+      <File FileName="Assets\GlobalPowerScript.cs" Line="53" Column="5" />
+      <File FileName="Assets\PowerScript.cs" Line="13" Column="1" />
+      <File FileName="Assets\IntegrityScript.cs" Line="1" Column="1" />
       <File FileName="Assets\GlobalControlScript.cs" Line="7" Column="29" />
       <File FileName="Assets\PickUpScript.cs" Line="15" Column="36" />
-      <File FileName="Assets\SpawnScript.cs" Line="24" Column="50" />
-      <File FileName="Assets\DestructibleScriptTrigger.cs" Line="43" Column="32" />
-      <File FileName="Assets\destructibleScript.cs" Line="13" Column="3" />
-      <File FileName="Assets\Scripts\InputScript.cs" Line="112" Column="24" />
-      <File FileName="Assets\UnityStore\VRTK\Examples\ExampleResources\Scripts\UI_Keyboard.cs" Line="52" Column="15" NotebookId="1" />
+      <File FileName="Assets\SpawnScript.cs" Line="21" Column="1" />
+      <File FileName="Assets\DestructibleScriptTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\destructibleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InputScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\UnityStore\VRTK\Scripts\Interactions\VRTK_InteractGrab.cs" Line="36" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
