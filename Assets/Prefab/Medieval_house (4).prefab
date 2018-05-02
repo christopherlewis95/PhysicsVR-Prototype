@@ -37,8 +37,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1981867821777124}
-  m_LocalRotation: {x: -0.000000034286874, y: -0.41834834, z: 0.000000015792212, w: 0.9082867}
-  m_LocalPosition: {x: 8.780061, y: 4.0666637, z: -15.680721}
+  m_LocalRotation: {x: -0.000000027040947, y: -0.6977551, z: 0.000000026339523, w: 0.71633637}
+  m_LocalPosition: {x: 14.514724, y: 4.0666637, z: -44.19256}
   m_LocalScale: {x: 0.3226973, y: 0.3226973, z: 0.3226973}
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,7 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6bd5d95d6177847a21d80cede7b2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  replacement: {fileID: 1730704276717640, guid: c6a0bfe81adb98c439639483c03f6770,
+  replacement: {fileID: 1745068047069154, guid: 74a23644a3c439046a4f503240391ad3,
     type: 2}
   isHouse: 1
   isWall: 0
+  crumble: {fileID: 0}
+  explosion: {fileID: 1978839961923866, guid: 74a23644a3c439046a4f503240391ad3, type: 2}

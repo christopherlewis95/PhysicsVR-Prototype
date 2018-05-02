@@ -10,9 +10,17 @@ public class DestructibleScriptTrigger : MonoBehaviour {
 	public bool isWall;
 
 
+	public GameObject crumble;
+	AudioSource crumbleSound;
+
+	public GameObject explosion;
+	AudioSource explosionSound;
+
+
 	// Use this for initialization
 	void Start () {
-		
+		crumbleSound = crumble.GetComponent<AudioSource> ();
+		explosionSound = explosion.GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -32,6 +40,9 @@ public class DestructibleScriptTrigger : MonoBehaviour {
 						GlobalDestroyObjectScript.numObjects--;
 					Destroy (gameObject);
 					isDestroyed = true;
+
+
+
 				}
 
 			}
@@ -48,6 +59,9 @@ public class DestructibleScriptTrigger : MonoBehaviour {
 						GlobalDestroyObjectScript.numObjects--;
 					Destroy (gameObject);
 					isDestroyed = true;
+
+					crumbleSound.Play ();
+					StartCoroutine (delay (3,1));
 				}
 
 			}
@@ -56,6 +70,24 @@ public class DestructibleScriptTrigger : MonoBehaviour {
 		}
 
 
+	}
+
+	IEnumerator delay(int time, int set)
+	{
+		//print(Time.time);
+
+		if (set == 1) {
+			yield return new WaitForSeconds (time);
+			crumbleSound.Stop ();
+		}
+
+		if (set == 2) {
+			yield return new WaitForSeconds (time);
+			crumbleSound.Stop ();
+		}
+		
+		//cannonBlast.Stop ();
+		//print(Time.time);
 	}
 
 }

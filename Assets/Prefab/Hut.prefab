@@ -121,3 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   replacement: {fileID: 1019853965107116, guid: 32bbe3c4bd34cbf468c080f93c8f7f64,
     type: 2}
+  isHouse: 1
+  isWall: 0
+  crumble: {fileID: 0}
+  explosion: {fileID: 1019853965107116, guid: 32bbe3c4bd34cbf468c080f93c8f7f64, type: 2}

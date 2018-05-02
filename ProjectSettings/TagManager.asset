@@ -23,6 +23,7 @@ TagManager:
   - Net
   - heavy
   - foam
+  - spawn
   layers:
   - Default
   - TransparentFX
