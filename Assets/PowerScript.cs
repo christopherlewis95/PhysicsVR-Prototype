@@ -9,7 +9,7 @@ public class PowerScript : MonoBehaviour {
 
 	public GameObject hand;
 	public VRTK_InteractGrab grabdata;
-
+	public AudioSource tada;
 
 	//public GameObject attachedSphere;
 
@@ -39,10 +39,19 @@ public class PowerScript : MonoBehaviour {
 
 			Destroy (other.gameObject);
 			hand.SetActive (true);
+			tada.Play ();
+			StartCoroutine (delay (2));
 			grabdata.throwMultiplier = 5.0f;
 		}
 
 	}
 
+	IEnumerator delay(int time)
+	{
+		//print(Time.time);
+		yield return new WaitForSeconds(time);
+		tada.Stop ();
+		//print(Time.time);
+	}
 
 }
