@@ -1,4 +1,7 @@
-﻿namespace VRTK.Examples
+﻿using UnityEngine;
+using System.Collections;
+
+namespace VRTK.Examples
 {
     using UnityEngine;
     using UnityEventHelper;
@@ -18,14 +21,26 @@
                 buttonEvents = gameObject.AddComponent<VRTK_Button_UnityEvents>();
             }
             buttonEvents.OnPushed.AddListener(handlePush);
+
         }
 
         private void handlePush(object sender, Control3DEventArgs e)
         {
             VRTK_Logger.Info("Pushed");
 
+
            // GameObject newGo = (GameObject)Instantiate(go, dispenseLocation.position, Quaternion.identity);
             //Destroy(newGo, 10f);
         }
+
+
+		IEnumerator delay(int time)
+		{
+			//print(Time.time);
+			yield return new WaitForSeconds(time);
+			//print(Time.time);
+		}
+
+
     }
 }

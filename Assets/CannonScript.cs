@@ -119,29 +119,52 @@ public class CannonScript : MonoBehaviour {
 	}
 
 	public void shooooooott(){
+
 		//played = true;
-		print("YES");
-		if (numCannonBalls != 0) {
-			numCannonBalls--;
-			var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
-			particleExplosion.Play ();
-			cannonBlast.Play ();
+
+		if (GlobalControlScript.canShoot == true) {
+			GlobalControlScript.canShoot = false;
+			print ("YES");
+			if (numCannonBalls != 0) {
+				numCannonBalls--;
+				var bullet = Instantiate (cannonBall, firepoint.position, firepoint.rotation);
+				particleExplosion.Play ();
+				cannonBlast.Play ();
 	
-			StartCoroutine (delay (2));
+				StartCoroutine (delay (2.0f, 1));
+				StartCoroutine (delay (0.2f, 2));
 
-
-			bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * (40 * (strength / maxStrength));
+				bullet.GetComponent<Rigidbody> ().velocity = bullet.transform.forward * (40 * (strength / maxStrength));
 		
+			}
 		}
 
 	}
 
-	IEnumerator delay(int time)
+	IEnumerator delay(float time, int track)
 	{
 		//print(Time.time);
+
 		yield return new WaitForSeconds(time);
-		particleExplosion.Stop ();
-		cannonBlast.Stop ();
+
+		if (track == 1) {
+			particleExplosion.Stop ();
+			cannonBlast.Stop ();
+		} else if (track == 2) {
+			GlobalControlScript.canShoot = true;
+
+		}
+		//;
 		//print(Time.time);
 	}
+
+	/*
+	IEnumerator delayShot(float time)
+	{
+		//print(Time.time);
+
+		GlobalControlScript.canShoot = true;
+		//print(Time.time);
+	}
+	*/
 }

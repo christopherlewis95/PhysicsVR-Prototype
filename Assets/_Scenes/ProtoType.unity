@@ -5174,7 +5174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &184632591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5623,7 +5623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &206416206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6138,7 +6138,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253770190}
-  m_LocalRotation: {x: 0.18301274, y: 0.6830127, z: 0.6830127, w: -0.18301274}
+  m_LocalRotation: {x: 0.21516228, y: 0.6735764, z: 0.6735764, w: -0.21516228}
   m_LocalPosition: {x: 8.17, y: 5.11, z: -5.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6147,7 +6147,7 @@ Transform:
   - {fileID: 1519070605}
   m_Father: {fileID: 0}
   m_RootOrder: 77
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 30}
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 180, z: 35.429993}
 --- !u!1 &254352719
 GameObject:
   m_ObjectHideFlags: 0
@@ -6505,6 +6505,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -6853,6 +6858,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -7353,6 +7363,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -8145,6 +8160,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -8349,7 +8369,7 @@ Prefab:
     - target: {fileID: 114793480769052932, guid: 7d4abf816421b0d489d96782eeaceb25,
         type: 2}
       propertyPath: setBalls
-      value: 60
+      value: 99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d4abf816421b0d489d96782eeaceb25, type: 2}
@@ -8774,14 +8794,14 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 628828173}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.000000005587935, z: -0.03068875, w: 0.999529}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.05, z: 1}
   m_Children:
   - {fileID: 1326342732}
   m_Father: {fileID: 2070188994}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.5170002}
 --- !u!114 &628828175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8824,7 +8844,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
+  - {fileID: 2100000, guid: 33af27359b49eda48829e2c0bf1e12b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10857,7 +10877,7 @@ RectTransform:
   m_GameObject: {fileID: 841058252}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35818863, y: 0.17306308, z: 1}
+  m_LocalScale: {x: 0.4986907, y: 0.17306308, z: 1}
   m_Children: []
   m_Father: {fileID: 1171192988}
   m_RootOrder: 9
@@ -11526,6 +11546,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -11945,6 +11970,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -12338,7 +12368,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Squeeze controller triggers to grab handles
 
-    and turn knob'
+    and twist knob'
 --- !u!222 &1027116777
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13560,7 +13590,7 @@ RectTransform:
   m_GameObject: {fileID: 1153149983}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+  m_LocalScale: {x: 1.1508747, y: 1.2482898, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 1171192988}
   m_RootOrder: 10
@@ -13602,7 +13632,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Push to \nshoot\n"
+  m_Text: "Push button down to \nshoot\n"
 --- !u!222 &1153149986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14091,7 +14121,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1171192984}
   m_LocalRotation: {x: -0.0046053776, y: 0.9547888, z: -0.0032962337, w: -0.29723102}
-  m_LocalPosition: {x: 0, y: 0, z: 22.8045}
+  m_LocalPosition: {x: 0, y: 0, z: 22.814}
   m_LocalScale: {x: 0.0018900909, y: 0.0010463161, z: 0.0009}
   m_Children:
   - {fileID: 1086236235}
@@ -14110,7 +14140,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 179.482, y: 394.58197, z: 179.608}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 32.6159, y: 5.5234}
+  m_AnchoredPosition: {x: 32.601, y: 5.523}
   m_SizeDelta: {x: 311.6, y: 750}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1176537533
@@ -14220,6 +14250,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -14417,6 +14452,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -14625,6 +14665,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -15392,6 +15437,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -15667,6 +15717,36 @@ Prefab:
       propertyPath: events.OnPush.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1267758190}
+    - target: {fileID: 114562018855505454, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: disableWhenIdle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114090938284361388, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: buttonStrength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114562018855505454, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: touchHighlightColor.r
+      value: 0.9558824
+      objectReference: {fileID: 0}
+    - target: {fileID: 114562018855505454, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: touchHighlightColor.g
+      value: 0.02108566
+      objectReference: {fileID: 0}
+    - target: {fileID: 114562018855505454, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: touchHighlightColor.b
+      value: 0.02108566
+      objectReference: {fileID: 0}
+    - target: {fileID: 23549441250202966, guid: e3a3ce3ec78e4284599bf28a561bc8ed,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5b861e263c59df4cade49ef2639af00, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3a3ce3ec78e4284599bf28a561bc8ed, type: 2}
   m_IsPrefabParent: 0
@@ -16909,7 +16989,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
+  - {fileID: 2100000, guid: 33af27359b49eda48829e2c0bf1e12b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17985,6 +18065,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -18685,6 +18770,11 @@ Prefab:
       propertyPath: m_Name
       value: Bullet (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
   m_IsPrefabParent: 0
@@ -18886,6 +18976,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -19400,14 +19495,14 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1740587863}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.02344891, w: 0.9997251}
   m_LocalPosition: {x: 7.35, y: 1.72, z: -0}
   m_LocalScale: {x: 1, y: 0.05, z: 1}
   m_Children:
   - {fileID: 1029211641}
   m_Father: {fileID: 1022398047}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.687}
 --- !u!114 &1740587865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19450,7 +19545,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
+  - {fileID: 2100000, guid: 33af27359b49eda48829e2c0bf1e12b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19793,6 +19888,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
@@ -20535,7 +20635,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
+  - {fileID: 2100000, guid: 33af27359b49eda48829e2c0bf1e12b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21841,7 +21941,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1968324076}
-  m_LocalRotation: {x: 0.27059805, y: 0.6532815, z: 0.6532815, w: -0.27059805}
+  m_LocalRotation: {x: 0.39599666, y: 0.5858214, z: 0.5858214, w: -0.39599663}
   m_LocalPosition: {x: -18.77, y: 7.25, z: 4.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21850,7 +21950,7 @@ Transform:
   - {fileID: 1468228332}
   m_Father: {fileID: 0}
   m_RootOrder: 78
-  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 45}
+  m_LocalEulerAnglesHint: {x: -89.99999, y: 180, z: 68.115}
 --- !u!82 &1968324079
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22129,6 +22229,11 @@ Prefab:
     - target: {fileID: 1829954128158112, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
       propertyPath: m_Name
       value: Bullet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277739742356032, guid: 092bc1f4f7fe2d24ba6398755678406c,
+        type: 2}
+      propertyPath: isGrabbable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 092bc1f4f7fe2d24ba6398755678406c, type: 2}
